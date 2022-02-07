@@ -38,7 +38,7 @@ class IotServer {
     constructor() {
         this.sensor = [];
     }
-    start([sensor]) {
+    start([sensor]) { // sensor 한개짜리 array...
         this.sensor.push(...[sensor]);
     }
     publish(value) {
